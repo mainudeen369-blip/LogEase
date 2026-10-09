@@ -1,0 +1,5 @@
+Stop-Process -Name "LogEase.Desktop" -Force -ErrorAction SilentlyContinue
+.\Publish-Desktop.ps1
+
+cd c:\HajaWorkingFolder\LogEase\LogEase.Desktop
+dotnet publish -c Release -r win-x64 --self-contained

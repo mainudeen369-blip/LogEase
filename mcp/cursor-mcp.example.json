@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "logease": {
+      "command": "node",
+      "args": ["C:/HajaWorkingFolder/LogEase/mcp/dist/index.js"],
+      "env": {
+        "LOGEASE_API_URL": "http://127.0.0.1:5055/graphql",
+        "LOGEASE_EMAIL": "demo@logease.local",
+        "LOGEASE_PASSWORD": "Demo@123"
+      }
+    }
+  }
+}

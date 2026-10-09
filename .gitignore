@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env*.local
+bin/
+obj/
+*.user
+.vs/
+mcp/dist/
+.build/
+publish/
+.cursor/mcp.json
+LogEase.Api/appsettings.json

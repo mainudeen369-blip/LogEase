@@ -1,0 +1,30 @@
+{
+  "name": "logease-mcp-db",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only SQL Server MCP for LogEase demo — direct DB queries from Cursor",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "logease-mcp-db": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "mssql": "^11.0.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/mssql": "^9.1.7",
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

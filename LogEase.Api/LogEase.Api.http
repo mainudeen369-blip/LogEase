@@ -1,0 +1,6 @@
+@LogEase.Api_HostAddress = http://localhost:5039
+
+GET {{LogEase.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
